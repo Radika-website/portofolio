@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of a professional web developer and UI designer." />
+  <title>Radika — Web Developer & UI Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="navLogo">
+        <span class="logo-text">R<span class="logo-dot">.</span></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb--1"></div>
+      <div class="hero-orb hero-orb--2"></div>
+      <div class="hero-orb hero-orb--3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Available for freelance
+      </div>
+      <h1 class="hero-title reveal-up">
+        Hi, I'm <span class="gradient-text">Radika</span><br />
+        <span class="hero-title--sub">Web Developer</span>
+      </h1>
+      <p class="hero-desc reveal-up">
+        I craft beautiful, performant digital experiences — from pixel-perfect UIs to robust back-end systems.
+      </p>
+      <div class="hero-cta reveal-up">
+        <a href="#contact" class="btn btn--primary" id="heroCta">
+          <span>Contact Me</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a href="#projects" class="btn btn--ghost">View Work</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Exp.</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Clients</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator" id="scrollIndicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Passion meets <span class="gradient-text">Craft</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-left">
+          <div class="about-image-frame">
+            <img src="assets/img/profile.png" alt="Radika - Web Developer" class="about-img" />
+            <div class="about-image-decoration"></div>
+          </div>
+          <div class="about-card-float">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+            </svg>
+            <div>
+              <span class="float-card-num">99%</span>
+              <span class="float-card-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <p class="about-text">
+            I'm a passionate <strong>Web Developer & UI Designer</strong> based in Indonesia,
+            specializing in creating modern, user-centric digital experiences. I combine technical
+            precision with aesthetic sensibility to build products people love.
+          </p>
+          <p class="about-text">
+            With a focus on clean code and thoughtful design, every project I take on is an opportunity
+            to push the boundaries of what the web can do.
+          </p>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon skill-icon--blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </div>
+              <div><strong>Frontend Dev</strong><span>HTML, CSS, JS, React</span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon skill-icon--purple">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <path d="M3 9h18M9 21V9" />
+                </svg>
+              </div>
+              <div><strong>UI/UX Design</strong><span>Figma, Prototyping</span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon skill-icon--green">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                </svg>
+              </div>
+              <div><strong>Backend Dev</strong><span>Node.js, PHP, MySQL</span></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon skill-icon--orange">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                  <path d="M2 17l10 5 10-5" />
+                  <path d="M2 12l10 5 10-5" />
+                </svg>
+              </div>
+              <div><strong>Performance</strong><span>Optimization, SEO</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Selected <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">A curated selection of my best work, spanning web apps, design systems, and digital
+          experiences.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card reveal-up" style="--delay: 0s">
+          <div class="project-card__img-wrap">
+            <img src="assets/img/project_1.png" alt="Analytics Dashboard" class="project-card__img" loading="lazy" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link project-link--outline" aria-label="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Chart.js</span>
+            </div>
+            <h3 class="project-card__title">Analytics Dashboard</h3>
+            <p class="project-card__desc">A real-time analytics platform with interactive charts, user management, and
+              data export capabilities.</p>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card reveal-up" style="--delay: 0.1s">
+          <div class="project-card__img-wrap">
+            <img src="assets/img/project_2.png" alt="E-Commerce App" class="project-card__img" loading="lazy" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link project-link--outline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">Next.js</span><span class="tag">Stripe</span><span class="tag">Prisma</span>
+            </div>
+            <h3 class="project-card__title">E-Commerce Platform</h3>
+            <p class="project-card__desc">Full-stack shopping app with cart, checkout, payment integration, and admin
+              panel.</p>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card reveal-up" style="--delay: 0.2s">
+          <div class="project-card__img-wrap">
+            <img src="assets/img/project_3.png" alt="Brand Landing Page" class="project-card__img" loading="lazy" />
+            <div class="project-card__overlay">
+              <div class="project-card__links">
+                <a href="#" class="project-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+                <a href="#" class="project-link project-link--outline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__tags">
+              <span class="tag">HTML/CSS</span><span class="tag">GSAP</span><span class="tag">Figma</span>
+            </div>
+            <h3 class="project-card__title">Brand Landing Page</h3>
+            <p class="project-card__desc">High-converting startup landing page with smooth animations and pixel-perfect
+              design.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-inner reveal-up">
+        <div class="contact-orb contact-orb--1"></div>
+        <div class="contact-orb contact-orb--2"></div>
+
+        <!-- Header -->
+        <div class="contact-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="contact-title">Let's Build Something <span class="gradient-text">Amazing</span></h2>
+          <p class="contact-desc">Punya proyek atau pertanyaan? Isi form di bawah dan saya akan membalas secepatnya.</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="contactName">Nama Lengkap</label>
+              <input
+                type="text"
+                id="contactName"
+                name="name"
+                class="form-input"
+                placeholder="John Doe"
+                required
+                autocomplete="name"
+              />
+              <span class="form-error" id="nameError">Nama tidak boleh kosong.</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contactEmail">Email Kamu</label>
+              <input
+                type="email"
+                id="contactEmail"
+                name="email"
+                class="form-input"
+                placeholder="john@example.com"
+                required
+                autocomplete="email"
+              />
+              <span class="form-error" id="emailError">Masukkan email yang valid.</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contactSubject">Subjek</label>
+            <input
+              type="text"
+              id="contactSubject"
+              name="subject"
+              class="form-input"
+              placeholder="Kerjasama / Pertanyaan / Lainnya"
+              required
+            />
+            <span class="form-error" id="subjectError">Subjek tidak boleh kosong.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="contactMessage">Pesan</label>
+            <textarea
+              id="contactMessage"
+              name="message"
+              class="form-input form-textarea"
+              placeholder="Halo Radika, saya tertarik untuk berdiskusi tentang..."
+              rows="5"
+              required
+            ></textarea>
+            <span class="form-error" id="messageError">Pesan tidak boleh kosong.</span>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full" id="contactBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <span class="btn-text">Kirim Pesan</span>
+          </button>
+        </form>
+
+        <!-- Social links -->
+        <div class="contact-socials">
+          <a href="#" class="social-link" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 <strong>Radika</strong>. Crafted with ❤️ and clean code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
