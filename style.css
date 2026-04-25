@@ -716,9 +716,17 @@ button { cursor: none; font-family: var(--font); border: none; background: none;
 
 /* menghapus cursor di android */
 @media (pointer: coarse) {
-  .custom-cursor,
+  .cursor,
   .cursor-follower {
     display: none;
+  }
+
+  body {
+    cursor: auto;
+  }
+
+  button, a {
+    cursor: pointer;
   }
 }
 
