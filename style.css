@@ -714,6 +714,14 @@ button { cursor: none; font-family: var(--font); border: none; background: none;
   .stat-divider { height: 28px; }
 }
 
+/* menghapus cursor di android */
+@media (pointer: coarse) {
+  .custom-cursor,
+  .cursor-follower {
+    display: none;
+  }
+}
+
 /* =========================================================
    SELECTION & SCROLLBAR
    ========================================================= */
