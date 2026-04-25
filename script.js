@@ -6,6 +6,9 @@
 
 (() => {
   'use strict';
+   const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
+   
+   if (isTouchDevice) return;
 
   /* ========== Custom Cursor ========== */
   const cursor = document.getElementById('cursor');
