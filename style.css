@@ -720,14 +720,6 @@ button { cursor: none; font-family: var(--font); border: none; background: none;
   .cursor-follower {
     display: none;
   }
-
-  body {
-    cursor: auto;
-  }
-
-  button, a {
-    cursor: pointer;
-  }
 }
 
 /* =========================================================
